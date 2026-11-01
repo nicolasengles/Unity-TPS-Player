@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f619be75735b9084b849a3c1fcadb395, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: Assembly-CSharp::Weapon
+  Model: {fileID: 7699329684852564777, guid: 5df1efa554bfc1b4fa8785988a832c82, type: 3}
+  LocalPosition: {x: -0.04, y: 0.1, z: 0.065}
+  LocalRotation: {x: 0.4956176, y: -0.5043442, z: 0.45922908, w: -0.53768814}
+  IsAuto: 0
+  FireCooldown: 0.2
+  Damage: 20
+  Range: 1000
+  MaxSpread: 0.0125
+  MagazineCapacity: 12
+  DefaultTotalAmmo: 48
+  CurrentAmmo: 0
+  TotalAmmo: 0
+  ReloadTime: 3
+  MinPitchRecoil: 2
+  MaxPitchRecoil: 4
+  MinYawRecoil: 2
+  MaxYawRecoil: 4
+  RecoilKickSpeed: 100
+  RecoilRecoverySpeed: 5
+  FireSound: {fileID: 8300000, guid: fe469d47c496e3a4ebeafe6b929b4ca6, type: 3}
